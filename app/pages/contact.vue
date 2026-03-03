@@ -4,21 +4,27 @@ import { MessageCircle, Calendar, Mail } from 'lucide-vue-next'
 const config = useAppConfig()
 
 useSeoMeta({
-  title: 'Contact — Entrer en conversation | Divan des Sultanes',
+  title: 'Contact — Entrer en contact | Divan des Sultanes',
   ogTitle: 'Contact — Divan des Sultanes',
   description: 'Prenez contact pour échanger sur l\'Odyssée, l\'Atelier, un accompagnement individuel ou une intervention en entreprise.',
   ogDescription: 'Prenez contact pour échanger sur l\'Odyssée, l\'Atelier, un accompagnement individuel ou une intervention en entreprise.',
+  ogImage: '/img/6.jpg',
 })
 </script>
 
 <template>
   <div>
+    <!-- Hero -->
+    <HeroSection image="/img/6.jpg" image-alt="Entrer en contact — Divan des Sultanes">
+      <p class="text-gold-300 text-sm font-semibold uppercase tracking-[0.25em] mb-4">Échangeons</p>
+      <h1 class="text-white mb-4 hero-text-shadow">Entrer en contact</h1>
+      <p class="text-lg md:text-xl text-white/85 max-w-2xl mx-auto">
+        Chaque parcours commence par un échange.
+      </p>
+    </HeroSection>
+
     <section class="section-spacing">
       <div class="container-page max-w-3xl mx-auto">
-        <h1 class="text-center mb-4">Entrer en conversation</h1>
-        <p class="text-center text-muted-foreground text-lg mb-12">
-          Chaque parcours commence par un échange.
-        </p>
 
         <div class="prose-divan mb-12">
           <p>Que votre demande concerne :</p>
@@ -119,7 +125,7 @@ useSeoMeta({
 
         <!-- Essai Download -->
         <div class="text-center">
-          <h2 class="mb-4">Recevoir l'essai <em>De l'autre côté du contrôle</em></h2>
+          <h2 class="mb-4 heading-gold">Recevoir l'essai <em>De l'autre côté du contrôle</em></h2>
           <div class="prose-divan max-w-xl mx-auto mb-8">
             <p>Il y a des textes que je ne publie pas simplement sur le blog. Des textes plus intimes. Plus fondateurs.</p>
             <p><em>De l'autre côté du contrôle</em> est un essai que j'ai écrit à partir d'un déplacement intérieur. Il parle de ce moment où l'on cesse de tenir à tout prix. Où l'on comprend que maîtriser n'est pas toujours diriger.</p>

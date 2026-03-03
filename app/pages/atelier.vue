@@ -14,8 +14,9 @@ useSeoMeta({
   <div>
     <!-- Hero -->
     <HeroSection image="/img/4.jpg" image-alt="L'Atelier des Sultanes">
-      <h1 class="text-white mb-4">L'Atelier</h1>
-      <p class="text-lg md:text-xl text-white/90 max-w-2xl mx-auto">
+      <p class="text-gold-300 text-sm font-semibold uppercase tracking-[0.25em] mb-4">Exploration collective</p>
+      <h1 class="text-white mb-4 hero-text-shadow">L'Atelier</h1>
+      <p class="text-lg md:text-xl text-white/85 max-w-2xl mx-auto">
         Cycles d'exploration professionnelle pour femmes qui dirigent
       </p>
     </HeroSection>
@@ -44,7 +45,7 @@ useSeoMeta({
         <div class="grid grid-cols-2 md:grid-cols-4 gap-4 my-8">
           <Card class="text-center">
             <CardHeader class="pb-2">
-              <CardTitle class="text-2xl text-primary">6</CardTitle>
+              <CardTitle class="text-4xl font-mono text-primary">6</CardTitle>
             </CardHeader>
             <CardContent>
               <p class="text-sm text-muted-foreground">femmes maximum</p>
@@ -52,7 +53,7 @@ useSeoMeta({
           </Card>
           <Card class="text-center">
             <CardHeader class="pb-2">
-              <CardTitle class="text-2xl text-primary">6</CardTitle>
+              <CardTitle class="text-4xl font-mono text-primary">6</CardTitle>
             </CardHeader>
             <CardContent>
               <p class="text-sm text-muted-foreground">rencontres de 2h</p>
@@ -60,7 +61,7 @@ useSeoMeta({
           </Card>
           <Card class="text-center">
             <CardHeader class="pb-2">
-              <CardTitle class="text-2xl text-primary">4</CardTitle>
+              <CardTitle class="text-4xl font-mono text-primary">4</CardTitle>
             </CardHeader>
             <CardContent>
               <p class="text-sm text-muted-foreground">mois de cycle</p>
@@ -68,7 +69,7 @@ useSeoMeta({
           </Card>
           <Card class="text-center">
             <CardHeader class="pb-2">
-              <CardTitle class="text-2xl text-primary">100%</CardTitle>
+              <CardTitle class="text-4xl font-mono text-primary">100%</CardTitle>
             </CardHeader>
             <CardContent>
               <p class="text-sm text-muted-foreground">distanciel</p>
@@ -159,7 +160,7 @@ useSeoMeta({
     <!-- Investissement -->
     <section class="section-spacing">
       <div class="container-page max-w-xl mx-auto">
-        <h2 class="text-center mb-8">L'investissement</h2>
+        <h2 class="text-center mb-8 heading-gold">L'investissement</h2>
 
         <PricingBlock prix="750 €" details="Cycle de 4 mois">
           <ul class="text-sm text-muted-foreground text-left space-y-2 mb-6">

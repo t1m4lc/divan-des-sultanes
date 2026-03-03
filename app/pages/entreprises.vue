@@ -14,8 +14,9 @@ useSeoMeta({
   <div>
     <!-- Hero -->
     <HeroSection image="/img/1.jpg" image-alt="Entreprises & Organisations — Divan des Sultanes">
-      <h1 class="text-white mb-4">Entreprises &amp; Organisations</h1>
-      <p class="text-lg md:text-xl text-white/90 max-w-2xl mx-auto">
+      <p class="text-gold-300 text-sm font-semibold uppercase tracking-[0.25em] mb-4">Leadership & management</p>
+      <h1 class="text-white mb-4 hero-text-shadow">Entreprises &amp; Organisations</h1>
+      <p class="text-lg md:text-xl text-white/85 max-w-2xl mx-auto">
         Interventions et accompagnements en leadership &amp; management
       </p>
     </HeroSection>
@@ -91,7 +92,7 @@ useSeoMeta({
     <SectionDivider />
 
     <!-- Hôtellerie & restauration de luxe -->
-    <section class="section-spacing bg-muted">
+    <section class="section-spacing bg-warm-section">
       <div class="container-page prose-divan max-w-3xl mx-auto">
         <h2>Hôtellerie &amp; restauration de luxe</h2>
         <p>Issue de l'hôtellerie haut de gamme, ancienne chef de cuisine puis directrice de restauration, je connais de l'intérieur les exigences de cet univers.</p>
@@ -128,10 +129,10 @@ useSeoMeta({
     </section>
 
     <!-- CTA -->
-    <section class="section-spacing bg-muted">
+    <section class="section-spacing bg-cream-section">
       <div class="container-page text-center">
-        <h2 class="mb-4">Parlons de votre besoin</h2>
-        <p class="text-muted-foreground mb-8 max-w-lg mx-auto">Chaque collaboration débute par un échange. Partagez-moi votre contexte.</p>
+        <h2 class="mb-4 heading-gold">Parlons de votre besoin</h2>
+        <p class="text-muted-foreground mb-10 max-w-lg mx-auto">Chaque collaboration débute par un échange. Partagez-moi votre contexte.</p>
         <CtaButton to="/contact" arrow>
           Entrer en contact pour échanger sur votre besoin
         </CtaButton>

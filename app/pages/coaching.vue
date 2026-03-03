@@ -14,8 +14,9 @@ useSeoMeta({
   <div>
     <!-- Hero -->
     <HeroSection image="/img/5.jpg" image-alt="Coaching individuel — Divan des Sultanes">
-      <h1 class="text-white mb-4">Coaching individuel</h1>
-      <p class="text-lg md:text-xl text-white/90 max-w-2xl mx-auto">
+      <p class="text-gold-300 text-sm font-semibold uppercase tracking-[0.25em] mb-4">Accompagnement sur mesure</p>
+      <h1 class="text-white mb-4 hero-text-shadow">Coaching individuel</h1>
+      <p class="text-lg md:text-xl text-white/85 max-w-2xl mx-auto">
         Un espace confidentiel pour travailler votre posture professionnelle
       </p>
     </HeroSection>
@@ -115,10 +116,10 @@ useSeoMeta({
     </section>
 
     <!-- CTA -->
-    <section class="section-spacing bg-muted">
+    <section class="section-spacing bg-cream-section">
       <div class="container-page text-center">
-        <h2 class="mb-4">Prêt à commencer ?</h2>
-        <p class="text-muted-foreground mb-8">Chaque parcours commence par un échange.</p>
+        <h2 class="mb-4 heading-gold">Prêt à commencer ?</h2>
+        <p class="text-muted-foreground mb-10">Chaque parcours commence par un échange.</p>
         <CtaButton :href="config.reservations.calendlyGeneral || '/contact'" arrow>
           Prendre rendez-vous
         </CtaButton>

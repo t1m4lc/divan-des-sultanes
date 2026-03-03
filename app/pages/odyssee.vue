@@ -14,8 +14,9 @@ useSeoMeta({
   <div>
     <!-- Hero -->
     <HeroSection image="/img/3.jpg" image-alt="L'Odyssée — Parcours de leadership au féminin">
-      <h1 class="text-white mb-4">L'Odyssée</h1>
-      <p class="text-lg md:text-xl text-white/90 max-w-2xl mx-auto">
+      <p class="text-gold-300 text-sm font-semibold uppercase tracking-[0.25em] mb-4">Parcours transformateur</p>
+      <h1 class="text-white mb-4 hero-text-shadow">L'Odyssée</h1>
+      <p class="text-lg md:text-xl text-white/85 max-w-2xl mx-auto">
         Parcours initiatique de leadership au féminin — 9 mois
       </p>
     </HeroSection>
@@ -169,7 +170,7 @@ useSeoMeta({
     <!-- Investissement -->
     <section class="section-spacing">
       <div class="container-page max-w-xl mx-auto">
-        <h2 class="text-center mb-8">L'investissement</h2>
+        <h2 class="text-center mb-8 heading-gold">L'investissement</h2>
         <p class="text-center text-muted-foreground mb-8">L'Odyssée représente un engagement sur neuf mois.</p>
 
         <PricingBlock prix="8 000 €">
@@ -190,7 +191,7 @@ useSeoMeta({
     <!-- L'entrée dans l'Odyssée -->
     <section class="section-spacing">
       <div class="container-page prose-divan max-w-3xl mx-auto text-center">
-        <h2>L'entrée dans l'Odyssée</h2>
+        <h2 class="heading-gold">L'entrée dans l'Odyssée</h2>
         <p>On n'entre <strong>pas</strong> dans l'Odyssée par curiosité.</p>
         <p>On y entre par discernement.</p>
         <p>Un rendez-vous préalable est nécessaire pour vérifier :</p>
